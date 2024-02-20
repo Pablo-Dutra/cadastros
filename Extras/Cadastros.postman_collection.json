@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "f7b9762f-ae73-4da3-87f1-a7e8123d35b8",
+		"name": "Cadastros",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "20758836"
+	},
+	"item": [
+		{
+			"name": "listarPessoas",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwZXNzb2FJZCI6IjAiLCJuYmYiOjE3MDgzOTA1NTYsImV4cCI6MTcwODQwMTM1NiwiaWF0IjoxNzA4MzkwNTU2fQ.-tFnBYRZfrG0uUJkWffVhCVkgKiubP2HbObm8HrTeAQ"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5277/api/v1/pessoa"
+			},
+			"response": []
+		},
+		{
+			"name": "inserirPessoa",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwZXNzb2FJZCI6IjAiLCJuYmYiOjE3MDgzOTA1NTYsImV4cCI6MTcwODQwMTM1NiwiaWF0IjoxNzA4MzkwNTU2fQ.-tFnBYRZfrG0uUJkWffVhCVkgKiubP2HbObm8HrTeAQ"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Nome",
+							"value": "Pauloa",
+							"type": "text"
+						},
+						{
+							"key": "Email",
+							"value": "paulo@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "Codigo",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "Foto",
+							"type": "file",
+							"src": "/C:/Users/pablo/OneDrive/Pictures/batman/interno.jpg"
+						}
+					]
+				},
+				"url": "http://localhost:5277/api/v1/pessoa"
+			},
+			"response": []
+		},
+		{
+			"name": "downloadFoto",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwZXNzb2FJZCI6IjAiLCJuYmYiOjE3MDgzOTA1NTYsImV4cCI6MTcwODQwMTM1NiwiaWF0IjoxNzA4MzkwNTU2fQ.-tFnBYRZfrG0uUJkWffVhCVkgKiubP2HbObm8HrTeAQ"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:5277/api/v1/pessoa/download/3"
+			},
+			"response": []
+		},
+		{
+			"name": "auth",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5277/api/v1/auth?username=pablo&password=dutra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5277",
+					"path": [
+						"api",
+						"v1",
+						"auth"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "pablo"
+						},
+						{
+							"key": "password",
+							"value": "dutra"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
