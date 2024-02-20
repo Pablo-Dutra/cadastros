@@ -1,5 +1,6 @@
 ﻿using apiCadastro.Model;
 using apiCadastro.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace apiCadastro.Controllers
@@ -13,7 +14,7 @@ namespace apiCadastro.Controllers
         {
             _pessoaRepository = pessoaRepository ?? throw new ArgumentNullException(nameof(pessoaRepository));
         }
-
+        [Authorize]
         [HttpPost]
         public IActionResult Add([FromForm] PessoaViewModel pessoaView)
         {
@@ -29,14 +30,14 @@ namespace apiCadastro.Controllers
 
             return Ok();
         }
-
+        [Authorize]
         [HttpGet]
         public IActionResult Get()
         {
             var pessoas = _pessoaRepository.Get();
             return Ok(pessoas);
         }
-
+        [Authorize]
         [HttpPost]
         [Route("download/{id}")]
         public IActionResult DownloadFoto(int id)

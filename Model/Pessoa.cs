@@ -21,5 +21,9 @@ namespace apiCadastro.Model
             this.foto = foto;
         }
 
+        public Pessoa()
+        {
+
+        }
     }
 }

@@ -41,7 +41,7 @@ Crie uma pasta no projeto chamada 'Storage'
 No 'Gerenciador de Soluções' do VS, clique com o botão direito sobre a aplicação e abra o 'Gerenciar Pacotes do NuGet'
 Instale o pacote: 'Microsoft.IdentityModel.Tokens' (Versão 7.3.1)
 Instale o pacote: 'System.IdentityModel.Tokens.Jwt'  (Versão 7.3.1)
-Instale o pacote: 'Microsoft.AspNetCore.Authentication.JwtBearer' (Versão 6.0.27)
+Instale o pacote: 'Microsoft.AspNetCore.Authentication.JwtBearer' (Versão 7.0.16)
 
 Crie na pasta raiz do projeto uma classe chamada 'Key.cs'
 
