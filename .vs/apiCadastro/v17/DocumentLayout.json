@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SistemaCadastros\\apiCadastro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|d:\\sistemacadastros\\apicadastro\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|solutionrelative:controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|d:\\sistemacadastros\\apicadastro\\infraestrutura\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|solutionrelative:infraestrutura\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|d:\\sistemacadastros\\apicadastro\\model\\ipessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|solutionrelative:model\\ipessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|d:\\sistemacadastros\\apicadastro\\viewmodel\\pessoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|solutionrelative:viewmodel\\pessoaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|d:\\sistemacadastros\\apicadastro\\model\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|solutionrelative:model\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|d:\\sistemacadastros\\apicadastro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|d:\\sistemacadastros\\apicadastro\\infraestrutura\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BF5D6-A0C0-4E27-B302-A2F2E12B9FB4}|apiCadastro.csproj|solutionrelative:infraestrutura\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PessoaViewModel.cs",
+              "DocumentMoniker": "D:\\SistemaCadastros\\apiCadastro\\ViewModel\\PessoaViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\PessoaViewModel.cs",
+              "ToolTip": "D:\\SistemaCadastros\\apiCadastro\\ViewModel\\PessoaViewModel.cs",
+              "RelativeToolTip": "ViewModel\\PessoaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T23:05:04.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PessoaController.cs",
+              "DocumentMoniker": "D:\\SistemaCadastros\\apiCadastro\\Controllers\\PessoaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PessoaController.cs",
+              "ToolTip": "D:\\SistemaCadastros\\apiCadastro\\Controllers\\PessoaController.cs",
+              "RelativeToolTip": "Controllers\\PessoaController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwC8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T23:01:18.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SistemaCadastros\\apiCadastro\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\SistemaCadastros\\apiCadastro\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T22:59:33.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PessoaRepository.cs",
+              "DocumentMoniker": "D:\\SistemaCadastros\\apiCadastro\\Infraestrutura\\PessoaRepository.cs",
+              "RelativeDocumentMoniker": "Infraestrutura\\PessoaRepository.cs",
+              "ToolTip": "D:\\SistemaCadastros\\apiCadastro\\Infraestrutura\\PessoaRepository.cs",
+              "RelativeToolTip": "Infraestrutura\\PessoaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T22:55:49.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConnectionContext.cs",
+              "DocumentMoniker": "D:\\SistemaCadastros\\apiCadastro\\Infraestrutura\\ConnectionContext.cs",
+              "RelativeDocumentMoniker": "Infraestrutura\\ConnectionContext.cs",
+              "ToolTip": "D:\\SistemaCadastros\\apiCadastro\\Infraestrutura\\ConnectionContext.cs",
+              "RelativeToolTip": "Infraestrutura\\ConnectionContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T22:51:05.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPessoaRepository.cs",
+              "DocumentMoniker": "D:\\SistemaCadastros\\apiCadastro\\Model\\IPessoaRepository.cs",
+              "RelativeDocumentMoniker": "Model\\IPessoaRepository.cs",
+              "ToolTip": "D:\\SistemaCadastros\\apiCadastro\\Model\\IPessoaRepository.cs",
+              "RelativeToolTip": "Model\\IPessoaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T22:49:23.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "D:\\SistemaCadastros\\apiCadastro\\Model\\Pessoa.cs",
+              "RelativeDocumentMoniker": "Model\\Pessoa.cs",
+              "ToolTip": "D:\\SistemaCadastros\\apiCadastro\\Model\\Pessoa.cs",
+              "RelativeToolTip": "Model\\Pessoa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T22:39:37.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
